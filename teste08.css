@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+
+html, body{
+    height: 100%;
+}
+
+.principal{
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.contact-center{
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact-one{
+    cursor: pointer;
+    float: right;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-one img{
+    cursor: pointer;
+    width: 23px;
+    margin-right: 10px;
+}
+
+.rd{
+    color: #C7AB49;
+    font-size: 11px;
+    margin-right: 15px;
+    width: 142px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-principal{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.nav-principal{
+    background-image: url("https://www.promad.adv.br/blog/wp-content/uploads/2021/11/6-praticas-mais-valorizadas-em-um-escritorio-de-advocacia.jpg");
+    background-repeat: no-repeat;
+    background-size: 2600px 600px;
+    background-position: center;
+}
+
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.86;
+}
+
+.main-center{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 800px;
+    height: 100%;
+}
+
+.nav-icons a, input{
+    margin-left: 80px;
+}
+
+.nav input{
+    padding: 15px 30px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #C7AB49;
+    color: #C7AB49;
+    cursor: pointer;
+}
+
+.nav input:hover{
+    border: 1px solid #d1be77;
+    color: #d1be77;
+    transition: 1s;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav a:hover{
+    color: #C7AB49;
+    transition: 1s;
+}
+
+.letras{
+    width: 100%;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.letras h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.letras p{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.letras input{
+    width: 300px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #C7AB49;
+    color: #C7AB49;
+    cursor: pointer;
+}
+
+.letras input:hover{
+    border: 1px solid #d1be77;
+    color: #d1be77;
+    transition: 1s;
+}
+
+.input-button{
+    width: 500px;
+    background-color: transparent;
+}
+
+.section-one{
+    width: 100%;
+    height: 160px;
+}
+
+.center-section{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-section h1{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.center-section p{
+    width: 70%;
+    text-align: center;
+}
+
+.section-two{
+    width: 100%;
+    height: 500px;
+}
+
+.section-two .center-sectio-two{
+    
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.section-two-top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.section-two-top .one, .two, .tree{
+    width: 33.3%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-two-bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.section-two-bottom .four, .five, .six{
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.retrato{
+    width: 30px;
+    border: none;
+    border: 1px solid #C7AB49;
+    border-radius: 50%;
+    padding: 15px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.para{
+    font-size: 25px;
+    color: #C7AB49;
+}
+
+.section-tree{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://modelo4.maiweb.com.br/wp-content/uploads/2022/06/modelo4-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center-section-tree{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section-tree-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.section-tree-left h1{
+    width: 100%;
+    text-align: left;
+    color: #C7AB49;
+    margin-bottom: 20px;
+}
+
+.section-tree-left .p-box{
+    width: 100%;
+    color: white;
+}
+
+.section-tree-left p{
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.section-tree-right{
+    width: 30%;
+    height: 100%;
+}
+
+.section-tree-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.clientes-1 h1{
+    font-family: 'Martel';
+    color: #C7AB49;
+    line-height: 40px;
+    letter-spacing: 0;
+}
+
+.clientes-1 p{
+    color: #C7AB49;
+    font-size: 100%;
+}
+
+.clientes-1{
+    margin-top: 40px;
+}
+
+.section-four{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+.section-four .center{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.section-four .center .names{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-four .center .names h1{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Martel';
+}
+
+.section-four .center .names p{
+    width: 800px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-four .center .profissionals{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 35px;
+}
+
+.section-four .center .profissionals .profissionals-profile{
+    width: 30%;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.profissionals .profissionals-profile .profile-img img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profissionals-profile .redes-sociais{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four .center .profissionals .redes-sociais img{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.profissinals-p{
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.section-five{
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+    background-color: #C7AB49;
+}
+
+.section-five .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.section-five .center h4{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Martel";
+}
+
+
+
+.section-five .center input{
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    border-radius: 2px;
+    padding: 15px 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+    background-color: #292929;
+}
+
+.input-img{
+    position: relative;
+}
+
+.input-img img{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.section-six{
+    width: 100%;
+    height: 350px;
+    background-color: #292929;
+}
+
+.section-six .center{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer-top .footer-left .redes-sociais img{
+    width: 15px;
+}
+
+.redes-sociais{
+    width: 200px;
+    height: 50px;
+    display: flex;
+}
+
+.redes-sociais .social{
+    width: 30px;
+    height: 30px;
+    background-color: #C7AB49;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.footer-top{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px;
+    color: white;
+}
+
+.footer-left .logo{
+    margin-bottom: 10px;
+}
+
+.footer-left h4{
+    margin-bottom: 10px;
+}
+
+.footer-right h4{
+    margin-bottom: 10px;
+}
+
+.wath{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #C7AB49;
+}
+
+.wath img{
+    margin-right: 5px;
+}
+
+.footer-bottom .center{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom .center p{
+    font-size: 10px;
+}
+
+.footer-bottom .center a{
+    text-decoration: none;
+    color: white;
+}
